@@ -1,21 +1,50 @@
 aid: dubsmash
-name: dubsmash
-description: dubsmash is a company surfaced as a portfolio company of balderton-capital, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dubsmash.png
+name: Dubsmash
+description: >-
+  Dubsmash was a video-selfie and lip-sync mobile application that let users record short videos
+  set to a library of popular audio clips, quotes, and songs. Founded in Germany in 2014 by Jonas
+  Druppel, Roland Grenke, and Daniel Taschik, it grew into one of the most downloaded social video
+  apps, particularly among younger creators in the United States. Reddit acquired Dubsmash in
+  December 2020, integrated its video-creation technology into the Reddit platform, and discontinued
+  the standalone Dubsmash app on February 22, 2022. Dubsmash never offered a public developer API,
+  SDK, or documentation program; its consumer domain (dubsmash.com) no longer resolves. This profile
+  is retained in the API Evangelist network as a historical, defunct company record surfaced from
+  venture-capital portfolio data.
 url: https://raw.githubusercontent.com/api-evangelist/dubsmash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-reason: Acquired by Reddit (Dec 2020); standalone app discontinued Feb 2022; consumer domain no longer resolves.
 x-backed-by:
 - balderton-capital
 - general-catalyst
+x-acquired-by: reddit
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Social
+- Video
+- Mobile
+- Consumer
+- Media
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://dubsmash.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
